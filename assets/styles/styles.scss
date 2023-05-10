@@ -55,6 +55,10 @@ body {
   color: #fff;
 }
 
+.text-green {
+  color: #65e4a3;
+}
+
 .bottom-break {
   border-bottom: 1px solid $dark-blue;
   padding-bottom: 72px;
@@ -138,7 +142,7 @@ body {
 
   .feature-number {
     font-family: "Manrope", sans-serif;
-    color: #4fe9a4;
+    color: #fff;
     font-weight: 400;
     font-size: 96px;
     line-height: 56px;
@@ -357,7 +361,8 @@ body {
   color: #000;
   #section1 {
     padding-bottom: 0;
-    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show > .nav-link {
       font-weight: 800;
     }
   }
